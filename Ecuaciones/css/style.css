@@ -1,0 +1,90 @@
+@font-face {
+    font-family: Dosis;
+    src: url('../font/Dosis-Light.ttf');
+    font-weight:300;
+}
+
+body,html{
+	border:0;
+	padding:0;
+	margin:0;
+	width:100%;
+	height:100%;
+}
+
+h1{
+	font-family: "Dosis";
+	font-weight: 300;
+	font-size: 3.5rem;
+	text-align: center;
+	text-shadow: 0px 5px 2px rgba(255, 255, 255, 0.4);
+	color: rgba(255, 255, 255, 0.9);
+	margin: 20px 0 35px;
+}
+
+
+body{
+	background: url('../images/calabera.jpg') no-repeat fixed center center/cover;
+	display: flex;
+	justify-content: center;
+	flex-flow:column;
+	align-items:center;
+}
+
+.container{
+	width:80%;
+	min-width:500px;
+	height:400px;
+	background:rgba(255,255,255,0.4);
+	border-radius:10px;
+	
+
+}
+
+#matriz{}
+#matriz form{}
+.content{
+	border: 2px solid #6f00a6;
+	width: 300px;
+	
+	margin: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+	display:flex;
+	flex-flow: row wrap;
+}
+
+.content .campo{
+	width: 25%;
+	height: 30px;
+	display: flex;
+	flex-flow: nowrap;
+	margin-bottom:10px;
+}
+.content .campo label{
+	width: 25%;
+	display: flex;
+	justify-content: center;s
+	align-items: center;
+	font-family:'Dosis';
+	font-weight:bold;
+}
+.content .campo input[type="number"]{
+width: 75%;
+padding: 5px;
+box-sizing: border-box;
+}
+
+
+#matriz_3{
+	margin:10px;
+	padding: 10px;
+	background:#6F00A6;
+	color:#fff;
+	
+	cursor:pointer;
+}
+.result{margin:10px;}
+.result div{}
+.result div label{}
+.result div input{}
